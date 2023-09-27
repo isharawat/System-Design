@@ -58,6 +58,8 @@ int main() {
     RemoteControl *remote = new RemoteControl;
     AirConditioner* ac = new AirConditioner();
     remote->control(new TurnOff(ac));
-    remote->control(new TurnOn(ac));
+    remote->control(new TurnOn(ac));git remote add origin https://github.com/isharawat/System-Design.git
+git branch -M main
+git push -u origin main
     remote->undo();
 }
